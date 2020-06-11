@@ -1,0 +1,115 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #AAAAAA;
+}
+
+.navbar-default .navbar-nav li a:focus {
+    color: #BBBBBB;
+}
+
+.navbar-nav {
+    float:  right;
+    text-align: right;
+}
+.navbar-default .navbar-collapse {
+    z-index: 100;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    .navbar-brand>img {
+        height: 100%;
+        padding: 15px;
+        width: auto;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.accueil-section {
+    padding-top: 90px;
+    text-align: center;
+    background: #eee;
+}
+
+.fidelio-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+    min-height: 400px !important;
+    background: #FFF;
+}
+
+@media(max-width:767px){
+    #logo2 {
+        height: 50px;
+        width: auto;
+        }
+    .navbar {
+        padding: 20px;
+    }
+}
+.ambiance-section {
+    padding: 0px;
+    background: #FFFFFF;
+}
+.produits-section {
+    position: relative;
+    float: left;
+    padding: 50px 0px 30px 0px;
+    background: #e6e6e6;
+    display: inline-block;
+}
+.apropos-section {
+    position: relative;
+    margin-top: -30px;
+    padding: 0px;
+    text-align: center;
+    color: #FFF;
+    display: inline-block;
+    background-color: #4F4F4F;
+}
+.contact-section {
+    position: relative;
+    background: #000;
+}
